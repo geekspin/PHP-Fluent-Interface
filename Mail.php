@@ -13,7 +13,7 @@ class Mail
         return $this;
     }
 
-    public function To($to)
+    public function addTo($to)
     {
         $this->to = $to;
         return $this;
